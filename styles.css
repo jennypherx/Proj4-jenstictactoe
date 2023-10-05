@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: floralwhite;
+    }
+    h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px;
+    }
+    .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    }
+    .flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+    }
+    .square {
+    border: 2px solid rgb(94, 159, 130);
+    height: 140px;
+    width: 140px;
+    }
+    #reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid rgb(212, 155, 193);
+    border-radius: 10px;
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+    }
