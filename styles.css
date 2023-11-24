@@ -3,9 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: floralwhite;
     }
+    h1 {
+    margin: 0 auto;
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(78, 59, 137);  
+    }
     h2 {
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 40px;
     margin: 10px;
     }
     .flex-container {
@@ -27,11 +33,15 @@ body {
     border: 2px solid rgb(92, 156, 127);
     height: 140px;
     width: 140px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     #reset-button {
     text-align: center;
     font-size: 20px;
-    border: 2px solid rgb(212, 155, 193);
+    border: 5px solid rgb(212, 155, 193);
     border-radius: 10px;
     height: 55px;
     width: 100px;
