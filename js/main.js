@@ -12,6 +12,7 @@ const winningCombos = [
 
 /*----- app's state (variables) -----*/
 let board;
+
 let turn = 'X';
 let win;
 
