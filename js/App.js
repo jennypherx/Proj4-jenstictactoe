@@ -38,6 +38,11 @@ function handleTurn(event) {
   setWin(whoWon);
 }
 
+React.useEffect(() => {
+  let whoWon = getWinner();
+  setWin(whoWon);
+}, [board]);
+
 function handleReset() {
   setBoard(Array(9).fill(""));
   setTurn("🍕");
